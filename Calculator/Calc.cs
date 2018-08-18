@@ -130,7 +130,7 @@ namespace Calculator
             switch (operation)
             {
                 case OPERATION.DIV:
-                    if (_operatingSecond == "0")
+                    if (operatingSecond == 0)
                     {
                         return "ERROR";
                     }
