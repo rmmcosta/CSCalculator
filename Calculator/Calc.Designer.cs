@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calc));
             this.textBoxResult = new System.Windows.Forms.TextBox();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -228,6 +229,7 @@
             // 
             // Calc
             // 
+            this.AcceptButton = this.buttonR;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(266, 316);
@@ -247,7 +249,14 @@
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.textBoxResult);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Location = new System.Drawing.Point(500, 100);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(282, 355);
+            this.MinimumSize = new System.Drawing.Size(282, 355);
             this.Name = "Calc";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
