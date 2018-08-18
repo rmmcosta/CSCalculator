@@ -216,7 +216,7 @@
             // 
             // buttonR
             // 
-            this.buttonR.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.buttonR.BackColor = System.Drawing.Color.Orange;
             this.buttonR.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonR.Location = new System.Drawing.Point(202, 266);
